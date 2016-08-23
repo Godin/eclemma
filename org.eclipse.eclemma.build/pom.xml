@@ -38,18 +38,6 @@
     <developer>
       <id>mtnminds</id>
       <name>Marc R. Hoffmann</name>
-      <roles>
-        <role>Project Lead</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>brock_j</id>
-      <name>Brock Janiczak</name>
-      <email>brockj@gmail.com</email>
-      <timezone>+10</timezone>
-      <roles>
-        <role>Developer</role>
-      </roles>
     </developer>
     <developer>
       <id>mandrikov</id>
@@ -59,9 +47,6 @@
       <organization>SonarSource</organization>
       <organizationUrl>http://www.sonarsource.com</organizationUrl>
       <timezone>+3</timezone>
-      <roles>
-        <role>Build and release manager</role>
-      </roles>
     </developer>
   </developers>
 

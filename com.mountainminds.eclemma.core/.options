@@ -1,5 +1,0 @@
-# Enable trace output for performance (time/memory)
-com.mountainminds.eclemma.core/debug/performance=true
-
-# Enable trace output for coverage analysis
-com.mountainminds.eclemma.core/debug/analysis=true

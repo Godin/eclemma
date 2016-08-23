@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.core;
 
@@ -34,7 +34,7 @@ public class DefaultScopeFilter {
 
   /**
    * Creates a new filter based on the given preferences.
-   * 
+   *
    * @param preferences
    *          call-back to retrieve current settings from.
    */
@@ -44,7 +44,7 @@ public class DefaultScopeFilter {
 
   /**
    * Returns a filtered copy of the given {@link IClassFiles} set.
-   * 
+   *
    * @param classfiles
    *          {@link IClassFiles} to filter
    * @param configuration

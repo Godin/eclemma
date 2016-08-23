@@ -42,7 +42,7 @@
                <test property="org.eclipse.eclemma.ui.launchable" args="org.eclipse.jdt.debug.ui.localJavaShortcut"/>
              </with>
            </enablement>
-  		 </contextualLaunch>
+         </contextualLaunch>
       </shortcut>
       <shortcut
             label="%JUnitTestShortcut.label"
@@ -106,7 +106,7 @@
                <test property="org.eclipse.eclemma.ui.launchable" args="org.eclipse.pde.ui.runtimeWorkbenchShortcut"/>
              </with>
            </enablement>
-         </contextualLaunch>         
+         </contextualLaunch>
       </shortcut>
       <shortcut
             label="%JUnitPluginTestShortcut.label"
@@ -173,7 +173,7 @@
          </contextualLaunch>
       </shortcut>
    </extension>
-   
+
    <extension
          point="org.eclipse.ui.actionSets">
       <actionSet
@@ -380,7 +380,7 @@
             name="%ResetOnDump.name">
       </command>
    </extension>
-   
+
    <extension
          point="org.eclipse.ui.bindings">
       <key
@@ -461,7 +461,7 @@
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
             sequence="M2+M4+F11"/>
    </extension>
-   
+
    <extension
          point="org.eclipse.ui.perspectiveExtensions">
       <perspectiveExtension targetID="org.eclipse.jdt.ui.JavaPerspective">
@@ -756,7 +756,7 @@
                menubarPath="additions"
                enablesFor="+"
                id="org.eclipse.eclemma.ui.contextualLaunch.coverage.submenu">
-         </action>                  
+         </action>
          <enablement>
             <test property="org.eclipse.debug.ui.launchable" value="coverage"/>
          </enablement>

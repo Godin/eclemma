@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.core;
 
@@ -25,7 +25,7 @@ public interface ISessionImporter {
 
   /**
    * Sets the description for the imported session.
-   * 
+   *
    * @param description
    *          textual description of the session
    */
@@ -33,7 +33,7 @@ public interface ISessionImporter {
 
   /**
    * Sets the source for execution data.
-   * 
+   *
    * @param source
    *          execution data source
    */
@@ -42,7 +42,7 @@ public interface ISessionImporter {
   /**
    * Sets the set of package fragment roots that should be considered for
    * coverage analysis.
-   * 
+   *
    * @param scope
    *          scope for analysis
    */
@@ -51,7 +51,7 @@ public interface ISessionImporter {
   /**
    * Specifies whether the original file should be copied while importing.
    * Otherwise the coverage file a referenced only.
-   * 
+   *
    * @param copy
    *          flag, whether the coverage file should be copied
    */
@@ -59,7 +59,7 @@ public interface ISessionImporter {
 
   /**
    * A call to this method triggers the actual import process.
-   * 
+   *
    * @param monitor
    *          progress monitor
    * @throws CoreException

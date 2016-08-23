@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.core;
 
@@ -53,7 +53,7 @@ public final class ExecutionDataFiles {
   /**
    * Creates a new execution data file containing the content of the given
    * source.
-   * 
+   *
    * @param source
    *          source to dump into the file
    * @return created file

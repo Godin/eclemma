@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.ui;
 
@@ -100,7 +100,7 @@ public class ScopeViewer implements ISelectionProvider {
    * Calculates a label for the class path of the given package fragment root.
    * For external entries this is the full path, otherwise it is the project
    * relative path.
-   * 
+   *
    * @param root
    *          package fragment root
    * @return label for the class path entry
@@ -125,7 +125,7 @@ public class ScopeViewer implements ISelectionProvider {
 
   /**
    * Creates a new viewer within the given parent.
-   * 
+   *
    * @param parent
    *          composite to create the viewer's table in
    * @param style
@@ -137,7 +137,7 @@ public class ScopeViewer implements ISelectionProvider {
 
   /**
    * Attaches the viewer to the given table.
-   * 
+   *
    * @param table
    *          view table
    */
@@ -171,7 +171,7 @@ public class ScopeViewer implements ISelectionProvider {
 
   /**
    * Returns the table used by the viewer.
-   * 
+   *
    * @return table used by the viewer
    */
   public Table getTable() {
@@ -180,7 +180,7 @@ public class ScopeViewer implements ISelectionProvider {
 
   /**
    * Sets the input for this viewer.
-   * 
+   *
    * @param input
    *          list of {@link IPackageFragmentRoot}s the user can select from
    */
@@ -190,7 +190,7 @@ public class ScopeViewer implements ISelectionProvider {
 
   /**
    * Specifies whether binary package fragment roots should also be listed.
-   * 
+   *
    * @param includebinaries
    *          <code>true</code> if binary entries should be listed
    */
@@ -201,7 +201,7 @@ public class ScopeViewer implements ISelectionProvider {
 
   /**
    * Sets the selected scope.
-   * 
+   *
    * @param scope
    *          list of package fragment roots that should be checked
    */
@@ -221,7 +221,7 @@ public class ScopeViewer implements ISelectionProvider {
 
   /**
    * Returns the currently selected scope.
-   * 
+   *
    * @return list of package fragment roots that are currently checked
    */
   public Set<IPackageFragmentRoot> getSelectedScope() {
@@ -234,7 +234,7 @@ public class ScopeViewer implements ISelectionProvider {
 
   /**
    * Registers the given selection listener if not already registered.
-   * 
+   *
    * @param listener
    *          listener to add
    */
@@ -246,7 +246,7 @@ public class ScopeViewer implements ISelectionProvider {
 
   /**
    * Removes the given selection listener.
-   * 
+   *
    * @param listener
    *          listener to remove
    */

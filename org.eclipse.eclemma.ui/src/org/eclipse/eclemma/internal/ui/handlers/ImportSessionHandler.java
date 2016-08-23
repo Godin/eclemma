@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.ui.handlers;
 
@@ -27,7 +27,7 @@ import org.eclipse.eclemma.internal.ui.wizards.SessionImportWizard;
 
 /**
  * Handler to import a JaCoCo coverage session.
- * 
+ *
  * Unlike the default handler for the import command, this implementation does
  * not overwrite menu icons and labels.
  */

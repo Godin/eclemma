@@ -21,7 +21,7 @@ public class Samples {
   /* <init>()V */
   Samples() {
   }
-  
+
   /* <init>(Ljava/lang/String;)V */
   Samples(String param) {
   }
@@ -29,17 +29,17 @@ public class Samples {
   /* <init>(I)V */
   Samples(int param) {
   }
-  
+
   /* (Ljava/lang/String;)V */
   void m1(String s) {
-  } 
+  }
 
   /* (Ljava/lang/Integer;)V */
   void m2(Integer i) {
-  } 
+  }
 
   /* (Ljava/lang/Number;)V */
   void m2(Number n) {
-  } 
-  
+  }
+
 }

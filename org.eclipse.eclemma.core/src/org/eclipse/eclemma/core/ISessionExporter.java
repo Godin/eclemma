@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.core;
 
@@ -76,7 +76,7 @@ public interface ISessionExporter {
 
   /**
    * Sets the export format.
-   * 
+   *
    * @param format
    *          export format constant
    */
@@ -85,7 +85,7 @@ public interface ISessionExporter {
   /**
    * Sets the export file name. Note that in case of HTML export this is only
    * the main file, while more files are created as siblings.
-   * 
+   *
    * @param filename
    *          file name of export destination
    */
@@ -93,7 +93,7 @@ public interface ISessionExporter {
 
   /**
    * A call to this method triggers the actual export process.
-   * 
+   *
    * @param monitor
    *          progress monitor
    * @throws CoreException

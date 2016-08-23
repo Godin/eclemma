@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.core;
 
@@ -22,7 +22,7 @@ public interface IExecutionDataSource {
 
   /**
    * Emits all stored execution data in the given visitors.
-   * 
+   *
    * @param executionDataVisitor
    *          visitor for execution data
    * @param visitor

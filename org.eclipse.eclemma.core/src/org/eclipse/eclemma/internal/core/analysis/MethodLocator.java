@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.core.analysis;
 
@@ -46,7 +46,7 @@ public class MethodLocator {
 
   /**
    * Initializes a new locator for method search within the given type.
-   * 
+   *
    * @param type
    *          type to search methods in
    * @throws JavaModelException
@@ -60,7 +60,7 @@ public class MethodLocator {
 
   /**
    * Searches for the method with the given binary name.
-   * 
+   *
    * @param name
    *          binary method name
    * @param signature

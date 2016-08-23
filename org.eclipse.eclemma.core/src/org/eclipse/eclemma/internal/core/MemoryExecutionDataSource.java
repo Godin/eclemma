@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.core;
 
@@ -58,7 +58,7 @@ public class MemoryExecutionDataSource implements IExecutionDataSource,
 
   /**
    * Collects execution data from the given reader.
-   * 
+   *
    * @param reader
    *          reader to read execution data from
    */

@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.ui;
 
@@ -28,28 +28,28 @@ public class UIPreferences extends AbstractPreferenceInitializer {
       + ".reset_on_dump"; //$NON-NLS-1$
 
   public static final String PREF_ACTICATE_NEW_SESSIONS = EclEmmaUIPlugin.ID
-      + ".activate_new_sessions"; //$NON-NLS-1$ 
+      + ".activate_new_sessions"; //$NON-NLS-1$
 
   public static final String PREF_DEFAULT_SCOPE_SOURCE_FOLDERS_ONLY = EclEmmaUIPlugin.ID
-      + ".default_scope_source_folders_only"; //$NON-NLS-1$ 
+      + ".default_scope_source_folders_only"; //$NON-NLS-1$
 
   public static final String PREF_DEFAULT_SCOPE_SAME_PROJECT_ONLY = EclEmmaUIPlugin.ID
-      + ".default_scope_same_project_only"; //$NON-NLS-1$ 
+      + ".default_scope_same_project_only"; //$NON-NLS-1$
 
   public static final String PREF_DEFAULT_SCOPE_FILTER = EclEmmaUIPlugin.ID
-      + ".default_scope_filter"; //$NON-NLS-1$ 
+      + ".default_scope_filter"; //$NON-NLS-1$
 
   public static final String PREF_AUTO_REMOVE_SESSIONS = EclEmmaUIPlugin.ID
-      + ".auto_remove_sessions"; //$NON-NLS-1$ 
+      + ".auto_remove_sessions"; //$NON-NLS-1$
 
   public static final String PREF_AGENT_INCLUDES = EclEmmaUIPlugin.ID
-      + ".agent_includes"; //$NON-NLS-1$ 
+      + ".agent_includes"; //$NON-NLS-1$
 
   public static final String PREF_AGENT_EXCLUDES = EclEmmaUIPlugin.ID
-      + ".agent_excludes"; //$NON-NLS-1$ 
+      + ".agent_excludes"; //$NON-NLS-1$
 
   public static final String PREF_AGENT_EXCLCLASSLOADER = EclEmmaUIPlugin.ID
-      + ".agent_exclclassloader"; //$NON-NLS-1$ 
+      + ".agent_exclclassloader"; //$NON-NLS-1$
 
   public static final ICorePreferences CORE_PREFERENCES = new ICorePreferences() {
     public boolean getActivateNewSessions() {

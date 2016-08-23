@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.core;
 
@@ -39,7 +39,7 @@ public final class CoverageTools {
 
   /**
    * Returns the global session manager.
-   * 
+   *
    * @return global session manager
    */
   public static ISessionManager getSessionManager() {
@@ -49,7 +49,7 @@ public final class CoverageTools {
   /**
    * Convenience method that tries to adapt the given object to ICoverageNode,
    * i.e. find coverage information from the active session.
-   * 
+   *
    * @param object
    *          Object to adapt
    * @return adapter or <code>null</code>
@@ -90,7 +90,7 @@ public final class CoverageTools {
   /**
    * Sets a {@link ICorePreferences} instance which will be used by the EclEmma
    * core to query preference settings if required.
-   * 
+   *
    * @param preferences
    *          callback object for preference settings
    */
@@ -100,7 +100,7 @@ public final class CoverageTools {
 
   /**
    * Determines all current coverage launches which are running.
-   * 
+   *
    * @return list of running coverage launches
    */
   public static List<ICoverageLaunch> getRunningCoverageLaunches() {

@@ -8,7 +8,7 @@
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
  *    Brock Janiczak - link with selection option (SF #1774547)
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.ui.coverageview;
 

@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.core;
 
@@ -22,9 +22,9 @@ import org.eclipse.debug.core.ILaunch;
  * The session manager holds a list of currently available sessions. One of the
  * sessions in the list may be the active session, which is the one that is used
  * to attach coverage information to Java elements.
- * 
+ *
  * This interface is not intended to be implemented or extended by clients.
- * 
+ *
  * @see org.eclipse.eclemma.core.CoverageTools#getSessionManager()
  */
 public interface ISessionManager {
@@ -34,7 +34,7 @@ public interface ISessionManager {
    * part of this session manager the method has no effect. If the optional
    * launch parameter is not <code>null</code> the key is internally assigned to
    * this session for later removal.
-   * 
+   *
    * @param session
    *          the new session
    * @param activate
@@ -49,7 +49,7 @@ public interface ISessionManager {
    * Merges the given sessions into a new one with the given name, then adds and
    * activates the new session. All merged sessions will be removed from the
    * session manager.
-   * 
+   *
    * @param sessions
    *          sessions to merge
    * @param description
@@ -65,7 +65,7 @@ public interface ISessionManager {
    * Removes the given session. If the session is not in included in this
    * session manager this method has no effect. If the removed session was the
    * active session, the most recently added session becomes active.
-   * 
+   *
    * @param session
    *          session to remove
    */
@@ -75,7 +75,7 @@ public interface ISessionManager {
    * Removes all sessions that has been assigned to the given launch. If there
    * is no session for the key this method has no effect. If the removed session
    * was the active session, the most recently added session becomes active.
-   * 
+   *
    * @see #addSession(ICoverageSession, boolean, Object)
    * @param launch
    *          launch of the sessions to remove
@@ -89,7 +89,7 @@ public interface ISessionManager {
 
   /**
    * Returns all sessions that have been registered with this session manager.
-   * 
+   *
    * @see #addSession(ICoverageSession, boolean, Object)
    * @return list of registered session
    */
@@ -98,7 +98,7 @@ public interface ISessionManager {
   /**
    * Activates the given session. If the session is not in included in this
    * session manager this method has no effect.
-   * 
+   *
    * @param session
    *          session to activate
    */
@@ -106,7 +106,7 @@ public interface ISessionManager {
 
   /**
    * Returns the active session or <code>null</code> if there is no session.
-   * 
+   *
    * @return active session or <code>null</null>
    */
   public ICoverageSession getActiveSession();
@@ -119,7 +119,7 @@ public interface ISessionManager {
 
   /**
    * Adds the given session listener unless it has been added before.
-   * 
+   *
    * @param listener
    *          session listener to add
    */
@@ -128,7 +128,7 @@ public interface ISessionManager {
   /**
    * Removes the given session listener. If the listener has not been added
    * before this method has no effect.
-   * 
+   *
    * @param listener
    *          session listener to remove
    */

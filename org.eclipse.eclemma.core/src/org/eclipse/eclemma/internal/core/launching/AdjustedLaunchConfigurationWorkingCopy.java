@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.core.launching;
 
@@ -23,7 +23,7 @@ import org.eclipse.debug.core.ILaunchConfigurationWorkingCopy;
 
 /**
  * Internal wrapper for {@link ILaunchConfigurationWorkingCopy} instances.
- * 
+ *
  * @see AdjustedLaunchConfiguration
  */
 class AdjustedLaunchConfigurationWorkingCopy extends

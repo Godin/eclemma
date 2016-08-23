@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Benjamin Muskalla - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.ui.decorators;
 

@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.ui;
 
@@ -41,7 +41,7 @@ public class EclEmmaUIPlugin extends AbstractUIPlugin {
 
   /** Identifier for the 'coverage' launch group. */
   public static final String ID_COVERAGE_LAUNCH_GROUP = ID
-      + ".launchGroup.coverage"; //$NON-NLS-1$  
+      + ".launchGroup.coverage"; //$NON-NLS-1$
 
   // Icons used by the Plugin
 

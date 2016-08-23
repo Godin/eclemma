@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.core;
 
@@ -46,7 +46,7 @@ public final class ScopeUtils {
 
   /**
    * Reads a coverage scope from a collection of element ids.
-   * 
+   *
    * @param ids
    *          List of {@link String} ids
    * @return scope as {@link IPackageFragmentRoot} collection
@@ -64,7 +64,7 @@ public final class ScopeUtils {
 
   /**
    * Writes a coverage scope as a list of ids.
-   * 
+   *
    * @param scope
    *          Scope as {@link IPackageFragmentRoot} collection
    * @return List of ids
@@ -80,10 +80,10 @@ public final class ScopeUtils {
   /**
    * Determines all {@link IPackageFragmentRoot}s that potentially referenced by
    * a given launch configuration.
-   * 
+   *
    * @param configuration
    *          launch configuration to determine overall scope
-   * 
+   *
    * @return overall scope
    */
   public static Set<IPackageFragmentRoot> getOverallScope(
@@ -98,10 +98,10 @@ public final class ScopeUtils {
    * Returns the scope configured with the given configuration. If no scope has
    * been explicitly defined, the default filter settings are applied to the
    * overall scope.
-   * 
+   *
    * @param configuration
    *          launch configuration to read scope from
-   * 
+   *
    * @return configured scope
    */
   public static Set<IPackageFragmentRoot> getConfiguredScope(
@@ -122,7 +122,7 @@ public final class ScopeUtils {
 
   /**
    * Determines all package fragment roots in the workspace.
-   * 
+   *
    * @return all package fragment roots
    */
   public static Set<IPackageFragmentRoot> getWorkspaceScope()
@@ -138,7 +138,7 @@ public final class ScopeUtils {
 
   /**
    * Remove all JRE runtime entries from the given set
-   * 
+   *
    * @param scope
    *          set to filter
    * @return filtered set without JRE runtime entries

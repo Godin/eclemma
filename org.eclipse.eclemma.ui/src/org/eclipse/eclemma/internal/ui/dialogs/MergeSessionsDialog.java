@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.ui.dialogs;
 
@@ -49,7 +49,7 @@ public class MergeSessionsDialog extends ListSelectionDialog {
 
   /**
    * Creates a new dialog with the given session list and description preset.
-   * 
+   *
    * @param parent
    *          parent shell
    * @param sessions
@@ -69,7 +69,7 @@ public class MergeSessionsDialog extends ListSelectionDialog {
 
   /**
    * Returns the session description entered by the user.
-   * 
+   *
    * @return session description
    */
   public String getDescription() {
@@ -78,7 +78,7 @@ public class MergeSessionsDialog extends ListSelectionDialog {
 
   /**
    * Returns the selected sessions to merge.
-   * 
+   *
    * @return selected sessions
    */
   public Collection<ICoverageSession> getSessions() {

@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Brock Janiczak - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.ui.actions;
 

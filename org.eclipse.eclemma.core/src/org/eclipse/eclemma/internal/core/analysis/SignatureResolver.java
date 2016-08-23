@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.core.analysis;
 
@@ -31,7 +31,7 @@ public final class SignatureResolver {
   /**
    * Extracts the parameter part from the given signature, i.e. the substring
    * contained in braces.
-   * 
+   *
    * @param signature
    *          method signature
    * @return parameter part only
@@ -44,7 +44,7 @@ public final class SignatureResolver {
 
   /**
    * Extracts the resolved binary parameters from the given method
-   * 
+   *
    * @param method
    *          method to resolve
    * @return binary parameter specification

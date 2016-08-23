@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.core.analysis;
 
@@ -39,7 +39,7 @@ public class TypeTraverser {
 
   /**
    * Creates a traverser for the given package fragment root.
-   * 
+   *
    * @param root
    *          package fragment root for traversal
    */
@@ -50,7 +50,7 @@ public class TypeTraverser {
   /**
    * Processes all types and methods reporting all types found to the given
    * {@link ITypeVisitor} instance.
-   * 
+   *
    * @param visitor
    *          type visitor
    * @param monitor
@@ -81,7 +81,7 @@ public class TypeTraverser {
    * This methods checks whether the given package fragment root is still on the
    * classpath. This check is required as the user might change the classpath
    * and old coverage sessions afterwards (SF #1836551).
-   * 
+   *
    * @param root
    *          package fragment root
    * @return true, if the classpath entry still exists

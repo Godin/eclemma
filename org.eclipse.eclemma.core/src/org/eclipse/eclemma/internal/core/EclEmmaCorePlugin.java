@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.core;
 
@@ -143,7 +143,7 @@ public class EclEmmaCorePlugin extends Plugin {
   /**
    * Issues an user prompt using the status handler registered for the given
    * status.
-   * 
+   *
    * @param status
    *          IStatus object to find prompter for
    * @param info

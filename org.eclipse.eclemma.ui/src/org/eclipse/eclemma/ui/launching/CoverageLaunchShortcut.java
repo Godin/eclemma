@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.ui.launching;
 
@@ -28,7 +28,7 @@ import org.eclipse.eclemma.internal.ui.EclEmmaUIPlugin;
  * Generic ILaunchShortcut implementation that delegates to another
  * ILaunchShortcut with a given id. The id is specified via the executable
  * extension attribute "class":
- * 
+ *
  * <pre>
  *   class="org.eclipse.eclemma.internal.ui.launching.CoverageLaunchShortcut:org.eclipse.jdt.debug.ui.localJavaShortcut"
  * </pre>

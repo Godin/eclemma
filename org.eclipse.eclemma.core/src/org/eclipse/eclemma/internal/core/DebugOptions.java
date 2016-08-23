@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.core;
 
@@ -29,14 +29,14 @@ public final class DebugOptions {
     /**
      * Determines whether this tracer is enabled. Clients may use this method to
      * avoid expensive calculation for debug output.
-     * 
+     *
      * @return <code>true</code> if the tracer is enabled
      */
     public boolean isEnabled();
 
     /**
      * Prints the given debug message if the tracer is enabled.
-     * 
+     *
      * @param message
      *          text message for trace output
      */
@@ -45,7 +45,7 @@ public final class DebugOptions {
     /**
      * Prints the given debug message if the tracer is enabled. The parameter
      * object will be inserted for the <code>{x}</code> placeholder.
-     * 
+     *
      * @param message
      *          text message for trace output
      * @param param1
@@ -56,7 +56,7 @@ public final class DebugOptions {
     /**
      * Prints the given debug message if the tracer is enabled. The parameter
      * object wills be inserted for the <code>{x}</code> placeholder.
-     * 
+     *
      * @param message
      *          text message for trace output
      * @param param1
@@ -69,7 +69,7 @@ public final class DebugOptions {
     /**
      * Prints the given debug message if the tracer is enabled. The parameter
      * object wills be inserted for the <code>{x}</code> placeholder.
-     * 
+     *
      * @param message
      *          text message for trace output
      * @param param1
@@ -89,7 +89,7 @@ public final class DebugOptions {
 
     /**
      * Prints out the elapsed time since starting the timer.
-     * 
+     *
      * @param message
      *          identification for the timed period
      */
@@ -102,7 +102,7 @@ public final class DebugOptions {
 
     /**
      * Print out heap memory usage since starting measurement.
-     * 
+     *
      * @param message
      *          identification for this memory usage output
      */

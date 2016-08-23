@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.ui;
 
@@ -49,7 +49,7 @@ public final class ContextHelp {
 
   /**
    * Assigns the given context help id to a SWT control.
-   * 
+   *
    * @param control
    *          control for this help context
    * @param id

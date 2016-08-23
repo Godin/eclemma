@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.core.analysis;
 
@@ -97,7 +97,7 @@ public interface IJavaModelCoverage extends ICoverageNode {
 
   /**
    * Returns all Java projects where coverage information is available for.
-   * 
+   *
    * @return list of Java projects
    */
   public IJavaProject[] getProjects();
@@ -105,21 +105,21 @@ public interface IJavaModelCoverage extends ICoverageNode {
   /**
    * Returns all package fragment roots where coverage information is available
    * for.
-   * 
+   *
    * @return list of package fragment roots.
    */
   public IPackageFragmentRoot[] getPackageFragmentRoots();
 
   /**
    * Returns all package fragments where coverage information is available for.
-   * 
+   *
    * @return list of package fragments
    */
   public IPackageFragment[] getPackageFragments();
 
   /**
    * Returns all Java types where coverage information is available for.
-   * 
+   *
    * @return list of Java types
    */
   public IType[] getTypes();
@@ -127,7 +127,7 @@ public interface IJavaModelCoverage extends ICoverageNode {
   /**
    * Returns the coverage information associated with the given Java element. If
    * no information is available <code>null</code> is returned.
-   * 
+   *
    * @param element
    *          Java element to look for coverage information
    * @return associated coverage information of null

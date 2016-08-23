@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.core.launching;
 
@@ -38,7 +38,7 @@ import org.eclipse.eclemma.internal.core.MemoryExecutionDataSource;
 
 /**
  * Internal TCP/IP server for the JaCoCo agent to connect to.
- * 
+ *
  */
 public class AgentServer extends Job {
 

@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.core.analysis;
 
@@ -23,7 +23,7 @@ public interface ITypeVisitor {
 
   /**
    * Called for every type.
-   * 
+   *
    * @param type
    *          Java model handle
    * @param binaryname
@@ -33,7 +33,7 @@ public interface ITypeVisitor {
 
   /**
    * Called for every compilation unit.
-   * 
+   *
    * @param unit
    *          Java model handle
    */
@@ -41,7 +41,7 @@ public interface ITypeVisitor {
 
   /**
    * Called for every class file.
-   * 
+   *
    * @param unit
    *          Java model handle
    */

@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Brock Janiczak - initial API and implementation (SF #1774547)
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.ui.coverageview;
 
@@ -66,7 +66,7 @@ class SelectionTracker {
 
   /**
    * Try to derive a java element handle from the given object.
-   * 
+   *
    * @param object
    *          base object
    * @return java element handle or <code>null</code>
@@ -86,7 +86,7 @@ class SelectionTracker {
    * Try to identify a nested java element of the given element from a textual
    * selection in its source code. This might be possible if the given element
    * is a compilation unit or class file.
-   * 
+   *
    * @param unit
    *          unit to search
    * @param selection
@@ -124,7 +124,7 @@ class SelectionTracker {
    * Selects the given element in the taget viewer when the tracker is enabled
    * and the target view is not active. This conditions can be overruled by the
    * <code>force</code> parameter.
-   * 
+   *
    * @param element
    *          element to select
    * @param force
@@ -143,7 +143,7 @@ class SelectionTracker {
    * Creates a new tracker for the given target view and viewer. The tracker
    * registers itself with the workbench and must be {@link #dispose()}d when it
    * is no longer used.
-   * 
+   *
    * @param targetview
    *          view to wich the workbench selections are applied
    * @param target
@@ -158,7 +158,7 @@ class SelectionTracker {
   /**
    * Enables or disables the tracker. If the tracker becomes enabled the last
    * workbench selection is immediately applied.
-   * 
+   *
    * @param enabled
    *          flag whether the tracker should become enabled
    */

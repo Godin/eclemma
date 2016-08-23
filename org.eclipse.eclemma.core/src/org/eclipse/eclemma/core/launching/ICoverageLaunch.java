@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.core.launching;
 
@@ -26,14 +26,14 @@ public interface ICoverageLaunch extends ILaunch {
   /**
    * Returns the collection of {@link IPackageFragmentRoot} considered as the
    * scope for this launch.
-   * 
+   *
    * @return package fragment roots for this launch
    */
   public Set<IPackageFragmentRoot> getScope();
 
   /**
    * Requests a new for this launch resulting in a new coverage session.
-   * 
+   *
    * @param reset
    *          if <code>true</code> execution data is reset for this launch
    */

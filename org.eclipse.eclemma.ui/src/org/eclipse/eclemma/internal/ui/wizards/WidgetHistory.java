@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.ui.wizards;
 
@@ -33,7 +33,7 @@ public final class WidgetHistory {
   /**
    * Restores the value of a text field. If no value was persisted before the
    * preset value is used.
-   * 
+   *
    * @param settings
    *          dialog setting used to persist the value
    * @param key
@@ -51,7 +51,7 @@ public final class WidgetHistory {
 
   /**
    * Saves the current value of a text field.
-   * 
+   *
    * @param settings
    *          dialog setting used to persist the value
    * @param key
@@ -66,7 +66,7 @@ public final class WidgetHistory {
   /**
    * Restores the selection state of a radio group. If no value was persisted
    * the first button is selected.
-   * 
+   *
    * @param settings
    *          dialog setting used to persist the status
    * @param key
@@ -90,7 +90,7 @@ public final class WidgetHistory {
 
   /**
    * Saves the selection status of a radio group.
-   * 
+   *
    * @param settings
    *          dialog setting used to persist the status
    * @param key
@@ -110,7 +110,7 @@ public final class WidgetHistory {
 
   /**
    * Restores the selection state of a check box.
-   * 
+   *
    * @param settings
    *          dialog setting used to persist the status
    * @param check
@@ -123,7 +123,7 @@ public final class WidgetHistory {
 
   /**
    * Saves the selection status of a check box.
-   * 
+   *
    * @param settings
    *          dialog setting used to persist the status
    * @param key
@@ -138,7 +138,7 @@ public final class WidgetHistory {
 
   /**
    * Restores the items of a combo box.
-   * 
+   *
    * @param settings
    *          dialog setting used to persist the history
    * @param key
@@ -161,7 +161,7 @@ public final class WidgetHistory {
    * Saves the items of the given combo box as its history. The current text
    * value is added as the most recent history item. The number of history items
    * is limited.
-   * 
+   *
    * @param settings
    *          dialog setting used to persist the history
    * @param key

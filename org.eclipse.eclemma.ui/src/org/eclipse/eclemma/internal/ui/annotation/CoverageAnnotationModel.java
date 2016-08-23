@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.ui.annotation;
 
@@ -87,7 +87,7 @@ public final class CoverageAnnotationModel implements IAnnotationModel {
   /**
    * Attaches a coverage annotation model for the given editor if the editor can
    * be annotated. Does nothing if the model is already attached.
-   * 
+   *
    * @param editor
    *          Editor to attach a annotation model to
    */
@@ -115,7 +115,7 @@ public final class CoverageAnnotationModel implements IAnnotationModel {
   /**
    * Detaches the coverage annotation model from the given editor. If the editor
    * does not have a model attached, this method does nothing.
-   * 
+   *
    * @param editor
    *          Editor to detach the annotation model from
    */

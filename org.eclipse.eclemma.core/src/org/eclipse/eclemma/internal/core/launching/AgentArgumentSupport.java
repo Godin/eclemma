@@ -7,7 +7,7 @@
  *
  * Contributors:
  *    Marc R. Hoffmann - initial API and implementation
- *    
+ *
  ******************************************************************************/
 package org.eclipse.eclemma.internal.core.launching;
 
@@ -44,7 +44,7 @@ public class AgentArgumentSupport {
   /**
    * Returns a wrapper for the given launch configuration that adds the required
    * VM argument.
-   * 
+   *
    * @param serverPort
    *          port of the local agent server
    * @param config
